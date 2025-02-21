@@ -20,7 +20,7 @@ DEFAULT_WORDLIST = os.path.join(WORDLIST_DIR, "rockyou.txt")
 if not os.path.exists(WORDLIST_DIR):
     os.makedirs(WORDLIST_DIR)
 
-# Banner de Lazy John Pro
+# Banner de Lazy John 
 def banner():
     print(f"""{Red}
 ██╗      █████╗ ███████╗██╗   ██╗     ██╗ ██████╗ ██╗  ██╗██╗  ██╗    
